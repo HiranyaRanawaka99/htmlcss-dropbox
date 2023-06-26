@@ -39,6 +39,14 @@ img {
 
 /*HEADER*/
 
+header {
+    position: fixed;
+    width:100%;
+    z-index: 10;
+
+    background-color: white;
+}
+
 .flex.navbar {
     justify-content: space-between;
     align-items: baseline;
