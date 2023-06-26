@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/5a5c2865c8fa7a166d94d0880ca9eebc?family=Sharp+Grotesk+Medium+25);
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,6 +7,7 @@
 }
 
 body {
+    font-family: sans-serif, 'sharp-grotesk';
 
 }
 
@@ -26,7 +29,51 @@ body {
     margin-right: auto;
 }
 
+.flex {
+    display:flex;
+}
+
 /*HEADER*/
+
+.flex.navbar {
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px 20px 30px 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-items {
+    display: inline;
+    margin-left: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color:black
+}
+
+.link.login {
+    margin-right: 20px;
+} 
+
+.btn.bg-blue {
+    background-color: #0061FF;
+    color: white;
+    border: none;
+    padding: 12px 14px;
+}
+
+
+
+
+
+
+
+
+
 
 /*MAIN*/
 
