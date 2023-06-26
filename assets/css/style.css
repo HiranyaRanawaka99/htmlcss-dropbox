@@ -11,6 +11,10 @@ body {
 
 }
 
+img {
+    width: 100%;
+}
+
 .lg-container {
     width: 100%;
     margin-left: auto;
@@ -41,6 +45,10 @@ body {
     padding: 30px 20px 30px 0;
 }
 
+.logo {
+    width: 125px;
+}
+
 .list {
     list-style: none;
 }
@@ -67,14 +75,40 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
 /*MAIN*/
+
+.jumbotron {
+    background-color: #B4D0E7;
+    min-height: 735px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 900;
+
+    padding-top: 105px;
+}
+
+.box-bottom {
+    margin-top: 77px;
+}
+.b-left-box {
+    width: 360px;
+}
+
+.b-left-box > p {
+    line-height: 20px;
+}
+
+.b-right-box {
+    width: 790px;
+}
+
+.jumbo.btn {
+    margin: 42px 0;
+}
+
+
+
 
 /*FOOTER*/
