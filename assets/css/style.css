@@ -36,7 +36,7 @@ img {
     display:flex;
 }
 
- .list-item {
+ .list {
     list-style: none;
  }
 
@@ -48,7 +48,7 @@ img {
 /*HEADER*/
 
 header {
-    position: fixed;
+    position: sticky;
     width:100%;
     z-index: 10;
 
