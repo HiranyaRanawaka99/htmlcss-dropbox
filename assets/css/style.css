@@ -8,7 +8,6 @@
 
 body {
     font-family: sans-serif, 'sharp-grotesk';
-
 }
 
 img {
@@ -37,6 +36,15 @@ img {
     display:flex;
 }
 
+ .list-item {
+    list-style: none;
+ }
+
+ .link {
+    text-decoration: none;
+    color: currentColor;
+}
+
 /*HEADER*/
 
 header {
@@ -47,29 +55,26 @@ header {
     background-color: white;
 }
 
-.flex.navbar {
+.flex.row {
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     padding: 30px 20px 30px 0;
 }
 
 .logo {
     width: 125px;
+    display: block;
 }
 
-.list {
-    list-style: none;
+.flex.list {
+    align-items: center;
 }
 
-.list-items {
-    display: inline;
+.list-item {
+    display: inline-block;
     margin-left: 40px;
 }
 
-.link {
-    text-decoration: none;
-    color:black
-}
 
 .link.login {
     margin-right: 20px;
@@ -115,8 +120,5 @@ h1 {
 .jumbo.btn {
     margin: 42px 0;
 }
-
-
-
 
 /*FOOTER*/
