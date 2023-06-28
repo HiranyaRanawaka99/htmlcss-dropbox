@@ -8,6 +8,8 @@
 
 body {
     font-family: sans-serif, 'sharp-grotesk';
+    font-size: 15px;
+    line-height: 18px;
 }
 
 img {
@@ -51,6 +53,7 @@ h2 {
 
 h3 {
     font-size: 20px;
+    line-height: 28px;
 }
 
 /*HEADER*/
@@ -88,7 +91,6 @@ header {
 } 
 
 .btn {
-    border: none;
     padding: 12px 14px;
     font-size: 17px;
     text-align: center;
@@ -97,6 +99,7 @@ header {
 
 
 .btn.bg-blue {
+    border: none;
     background-color: #0061FF;
     color: white;
 }
@@ -112,6 +115,7 @@ header {
 h1 {
     font-size: 70px;
     font-weight: 900;
+    line-height: 90px;
 
     padding-top: 105px;
 }
@@ -146,7 +150,7 @@ h1 {
 
 /*layout*/
 
-.row > h2 {
+.row-title-h2> h2 {
     padding-top: 100px;
 }
 
@@ -157,7 +161,7 @@ h1 {
     padding-top: 85px;  
 }
 
-.flex.row {
+.flex.row-card {
     flex-wrap: wrap;
     gap: 50px;
 
@@ -186,7 +190,7 @@ h1 {
 
 .text-1 {
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 
@@ -222,7 +226,6 @@ h1 {
 
 .text {
     padding: 35px;
-    font-size:14px;
 }
 .price {
     font-weight: bold;
@@ -250,19 +253,34 @@ hr {
 }
 /*Section 2*/
 
+     /*layout*/
+
 .ad {
     padding-top: 160px;
 }
 .col-60 {
-    width: 600px;
+    width: 500px;
 }
 .flex.col-40 {
-    width: 400px;
+    width: 500px;
     padding-left: 50px;
 
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
 }
+
+      /*content*/
+
+.bg-white {
+    background-color: white;
+
+    align-self:flex-start;
+}
+
+/*Section */
+
+
 
 
 /*FOOTER*/
