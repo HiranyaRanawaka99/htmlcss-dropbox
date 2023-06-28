@@ -141,7 +141,7 @@ h1 {
     margin: 42px 0;
 }
 
-/*.fa-arrow-down {
+/*.z< vfa-arrow-down {
     margin-top: auto;
 
 } si gestisce automaticamente, spinge la freccia in giù assegnandogli tutto lo spazio rimanente prima della fine*/
@@ -334,19 +334,14 @@ hr {
 .flex.img {
     justify-content: center;
 
-    min-height: 320px;
-    min-width: 320px;
-
     width: calc(100%/2);
+    height: calc(100%/2);
 
 }
 
 .flex.img-middle {
     flex-direction: column;
     gap: 50px;
-
-    min-height: 640px;
-    min-width: 640px;
 }
 
 .img-middle {
@@ -417,4 +412,6 @@ hr {
     border: none;
 }
 
+
+/*section 6*/
 /*FOOTER*/
