@@ -49,6 +49,7 @@ img {
 
 h2 {
     font-size: 35px;
+    line-height: 35px;
 }
 
 h3 {
@@ -148,7 +149,7 @@ h1 {
 
 /*Section 1*/
 
-/*layout*/
+   /*layout*/
 
 .row-title-h2> h2 {
     padding-top: 100px;
@@ -199,7 +200,7 @@ h1 {
     justify-content: space-between;
 }
 
-/*content*/
+    /*content*/
 
 .radio {
     border-radius: 20px;;
@@ -250,6 +251,7 @@ i + p {
 
 hr {
     width:20%;
+    border: 1px solid lightgrey;
 }
 /*Section 2*/
 
@@ -278,8 +280,46 @@ hr {
     align-self:flex-start;
 }
 
-/*Section */
+/*Section 3 */
 
+    /*layout*/
+
+.row-title-h2 {
+    margin-top: 130px;
+    margin-bottom: 45px;
+}
+
+.flex.row-card-options{
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+.flex.col-card {
+    flex-direction: column;
+
+   /* width: calc((100%-30px)/3);*/
+   flex-grow: 1;
+   flex-basis:0;
+   gap:25px;
+}
+
+   /*content*/
+
+.col-card > img {
+    width: 300px;
+    padding-top: 20px;
+}
+
+/*Section 4*/
+
+.square-buisness {
+    margin-top: 245px;
+}
+
+.link-buisness {
+    display: inline-block;
+    margin-top: 55px;
+}
 
 
 
