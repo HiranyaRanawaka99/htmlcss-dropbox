@@ -49,7 +49,7 @@ img {
 
 h2 {
     font-size: 35px;
-    line-height: 35px;
+    line-height: 50px;
 }
 
 h3 {
@@ -429,3 +429,34 @@ hr.w-100 {
     border: 1px solid lightgrey;
 }
 /*FOOTER*/
+    /*layout*/
+
+footer > .lg-container {
+    background-color: black;
+    color: white;
+    min-width: 1000px;
+}
+
+.flex.footer-row {
+    justify-content: space-between;
+
+    padding: 50px 0 100px 0;
+}
+
+.list-items {
+    list-style: none;
+}
+
+.item {
+    padding-bottom: 15px;
+}
+
+.item.title {
+    padding-bottom: 25px;
+}
+
+.footer-choose-lang {
+    border-top: 1px solid lightgray;
+    width: 10%;
+    padding: 50px 0px;
+}
