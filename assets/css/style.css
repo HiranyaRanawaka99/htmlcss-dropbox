@@ -319,7 +319,102 @@ hr {
 .link-buisness {
     display: inline-block;
     margin-top: 55px;
+    margin-bottom: 150px;
+    
 }
 
+/*Section 5*/
+
+  /*layout*/
+
+.flex.outside-box {
+    width: calc(100%/3);
+}
+
+.flex.img {
+    justify-content: center;
+
+    min-height: 320px;
+    min-width: 320px;
+
+    width: calc(100%/2);
+
+}
+
+.flex.img-middle {
+    flex-direction: column;
+    gap: 50px;
+
+    min-height: 640px;
+    min-width: 640px;
+}
+
+.img-middle {
+    padding: 50px 50px 240px 50px;
+}
+
+.teams {
+    width:50%;
+    color: white;
+}
+
+.teams.streched
+{
+    align-self: center;
+}
+
+.flex.box-col-30 {
+    flex-wrap: wrap;
+}
+
+  /*content*/
+
+.teams-1 {
+    background-color:rgba(162, 211, 155, 1) ;
+
+    border: 15px solid rgba(209, 233, 205, 1);
+}
+
+.teams-2 {
+    background-color: rgba(97, 8, 43, 1);
+}
+.teams-3{
+    background-color: rgba(0, 147, 206, 1) ;
+}
+.teams-4 {
+    background-color: rgba(255, 28, 28, 1);
+}
+.teams-5 {
+    background-color: rgba(245, 245, 245, 1);
+}
+.teams-6 {
+    background-color: rgba(213, 0, 31, 1);
+}
+.teams-7 {
+    background-color: rgba(180, 208, 231, 1);
+}
+.teams-8 {
+    background-color:rgba(13, 36, 129, 1);
+}
+.teams-9{
+    background-color: rgba(255, 216, 48, 1) ;
+}
+
+/*section 5.1*/
+
+.box-col-100 {
+    justify-content: space-around;
+    padding: 135px 460px;
+
+    background-color: rgba(180, 208, 231, 1);
+}
+
+.box-h2 {
+    color:rgba(97, 8, 43, 1);
+}
+
+.box.btn.bg-white {
+    border: none;
+}
 
 /*FOOTER*/
