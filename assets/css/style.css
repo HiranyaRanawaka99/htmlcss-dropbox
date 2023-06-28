@@ -10,6 +10,7 @@ body {
     font-family: sans-serif, 'sharp-grotesk';
     font-size: 20px;
     line-height: 18px;
+    color: rgb(52, 50, 50);
 }
 
 img {
@@ -38,14 +39,10 @@ img {
     display:flex;
 }
 
- .list {
+ul {
     list-style: none;
  }
 
- .link {
-    text-decoration: none;
-    color: currentColor;
-}
 
 h2 {
     font-size: 35px;
@@ -84,6 +81,11 @@ header {
 .list-item {
     display: inline-block;
     margin-left: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
 }
 
 
@@ -444,10 +446,6 @@ footer > .lg-container {
     justify-content: space-between;
 
     padding: 120px 0;
-}
-
-.list-items {
-    list-style: none;
 }
 
 .item {
